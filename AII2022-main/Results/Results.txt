@@ -1,0 +1,28 @@
+GROUP 1
+
+RFDNN:
+best_RMSE_mean = 0.2161; final_RMSE_std = 0.014; final_Acc_mean = 0.7800; final_Acc_std = 0.024; final_time = 15.651; best_learnRate = 0.0100; best_numHiddenUnits = 30; best_numFilters = 5; best_miniBatch = 4;
+
+TFDNN:
+best_RMSE_mean = 0.2171; final_RMSE_std = 0.016; final_Acc_mean = 0.7900; final_Acc_std = 0.034; final_time = 16.640; best_learnRate = 0.0100; best_numHiddenUnits = 30; best_numFilters = 5; best_miniBatch = 4;
+
+LSTM-2:
+final_Acc_mean = 0.7540; final_Acc_std = 0.027; final_time = 25.647; best_learnRate = 0.0100; best_numHiddenUnits1 = 10; best_numHiddenUnits2 = 10;
+
+LSTM-1:
+final_Acc_mean = 0.7920; final_Acc_std = 0.045; final_time = 14.026; best_learnRate = 0.0100; best_numHiddenUnits = 20
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+GROUP 2
+
+RFDNN:
+best_RMSE_mean = 0.2754; final_RMSE_std = 0.020; final_Acc_mean = 0.7340; final_Acc_std = 0.047; final_time = 13.264; best_learnRate = 0.0060; best_numHiddenUnits = 20; best_numFilters = 5; best_miniBatch = 5;
+
+TFDNN:
+best_RMSE_mean = 0.2852; final_RMSE_std = 0.018; final_Acc_mean = 0.7020; final_Acc_std = 0.041; final_time = 13.752; best_learnRate = 0.0060; best_numHiddenUnits = 20; best_numFilters = 5; best_miniBatch = 5;
+
+LSTM-2:
+final_Acc_mean = 0.7480; final_Acc_std = 0.065; final_time = 21.076; best_learnRate = 0.0060; best_numHiddenUnits1 = 10; best_numHiddenUnits2 = 10;
+
+LSTM-1:
+final_Acc_mean = 0.7420; final_Acc_std = 0.058; final_time = 11.608; best_learnRate = 0.0060; best_numHiddenUnits = 20;
